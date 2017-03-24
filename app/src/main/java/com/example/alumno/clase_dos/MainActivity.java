@@ -19,9 +19,13 @@ public class MainActivity extends AppCompatActivity {
         Button bt1 = (Button) super.findViewById(R.id.bt1);
         bt1.setText("Click1");
 
+        Button bt2 = (Button) super.findViewById(R.id.bt2);
+
+        View.OnClickListener listener = new MyListener();
+
+        bt1.setOnClickListener(listener);
+        bt2.setOnClickListener(listener);
 
 
-        /*View.OnClickListener listener = new MyListener();
-        bt1.setOnClickListener(listener);*/
     }
 }

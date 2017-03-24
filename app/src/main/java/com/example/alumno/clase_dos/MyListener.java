@@ -11,6 +11,9 @@ import android.widget.TextView;
 public class MyListener implements View.OnClickListener {
     @Override
     public void onClick(View v) {
-
+        if (v.getId() == R.id.bt1)
+            Log.d("Mensaje","Boton1");
+        else
+            Log.d("Mensaje","Otro Boton");
     }
 }
