@@ -7,24 +7,22 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-public class MainActivity extends AppCompatActivity {
-
+public class MainActivity extends AppCompatActivity
+{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        TextView tv = (TextView) super.findViewById(R.id.txtsaludo);
+        Modelo M = new Modelo("Otro texto");
 
-        Button bt1 = (Button) super.findViewById(R.id.bt1);
-        bt1.setText("Click1");
+        Vista V = new Vista(this, M);
 
-        Button bt2 = (Button) super.findViewById(R.id.bt2);
+        Controlador C = new Controlador(new MyListener(V));
 
-        View.OnClickListener listener = new MyListener();
+        View.OnClickListener listener = new MyListener((ICambiarTexto)this);
 
-        bt1.setOnClickListener(listener);
-        bt2.setOnClickListener(listener);
+
 
 
     }

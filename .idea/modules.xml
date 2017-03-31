@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Clase_Dos.iml" filepath="$PROJECT_DIR$/Clase_Dos.iml" />
       <module fileurl="file://$PROJECT_DIR$/Clase_Dos_Listener.iml" filepath="$PROJECT_DIR$/Clase_Dos_Listener.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Clase_Dos_Listener.iml" filepath="$PROJECT_DIR$/Clase_Dos_Listener.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
